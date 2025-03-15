@@ -35,5 +35,5 @@ graph = {
 }
 look = 's'
 
-print("--DFS ",DFS(graph, look))
-print("--BFS ",BFS(graph, look))
+print(DFS(graph, look))
+print(BFS(graph, look))

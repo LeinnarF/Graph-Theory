@@ -22,6 +22,6 @@ def printTreeEdges(prufer, m):
         elif vertex_set[i] == 0 and j == 1:
             print((i + 1), ")")
 
-prufer = [4,1,3,4]
+prufer = [2,1,1,3,5,5]
 m = len(prufer)
 printTreeEdges(prufer, m)
